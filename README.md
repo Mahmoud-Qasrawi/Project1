@@ -2,24 +2,24 @@
 
 This project implements and benchmarks a parallel version of the Merge Sort algorithm using Pthreads in C++. It compares the performance of sequential vs multithreaded implementations and includes graphs, timing data, and a final report.
 
-## 📁 Folder Structure
+ Folder Structure
 
 - `src/` — C++ source files for both sequential and parallel implementations.
 - `docs/` — Final project report and performance graphs.
 - `results/` — Timing data collected from all experiments.
 
-## 🧠 Algorithm Overview
+ Algorithm Overview
 
 Merge Sort is a divide-and-conquer algorithm that recursively splits arrays and merges them in sorted order. This project parallelizes the sorting of left and right halves using `pthread_create` and synchronizes them with `pthread_join`.
 
-## 🖥️ System Specifications
+System Specifications
 
 - **CPU**: Intel Core i3-8130U (2 cores / 4 threads)
 - **RAM**: 8 GB
 - **OS**: Windows 10 + WSL
 - **Compiler**: g++ with `-pthread` flag
 
-## 📊 Input Sizes Tested
+Input Sizes Tested
 
 - 1,000
 - 10,000
@@ -31,17 +31,17 @@ Each was tested with:
 - 2 threads
 - 4 threads
 
-## 📈 Performance Graphs
+Performance Graphs
 
 Graphs showing execution time and speedup for different thread counts can be found in `docs/graphs/`.
 
-## 📝 Report
+Report
 
 See `docs/Project1 Report.pdf` for full documentation, analysis, and conclusions.
 
-## 🤖 AI Assistance Disclaimer
+AI Assistance Disclaimer
 
-Some assistance was provided by OpenAI’s ChatGPT for code debugging, graph generation, and documentation editing. All final code and analysis were verified and understood by the author.
+Some assistance was provided by OpenAI’s ChatGPT for parallel code, graph generation, and documentation editing. All final code and analysis were verified tested  ran and understood and run anby the author.
 
 ## 👤 Author
 
